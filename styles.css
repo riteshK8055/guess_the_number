@@ -4,3 +4,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+#wrapper{
+
+    border: solid 2px;
+    padding: 50px;
+    border-radius: 100%;
+    text-align: center;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#subt{
+
+    padding: 2px;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+#subt:hover{
+
+    font-weight: 600;
+    background-color: brown;
+    font-size:small;
+    font-family: 'Times New Roman', Times, serif;
+}
